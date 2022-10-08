@@ -70,6 +70,5 @@ async def get_users():
 async def register_user(user: User):
     # add the user to the db
     db.append(user)
-
     # return the user with id
     return{"id": user.id}

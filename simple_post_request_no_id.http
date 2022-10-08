@@ -7,6 +7,8 @@
 # {
 #   "id": null
 # }
+# which is what I should get! 
+# check the simple_get_request.http to see the new data in the SESSION!
 # I updated the models.py to include
     # id: Optional[uuid.UUID] = uuid.uuid4()
 # and now I have some progress but still not quite there no first_name no last_name! :(
@@ -18,12 +20,25 @@ POST http://127.0.0.1:8000/api/v1/users HTTP/1.1
 content-type: application/json
 
  {
-    "first_name": "Rita",
+    "first_name": "Dita",
     "last_name": "Day",
-    "middle_name": "Smoothey",
+    "middle_name": "Smooothey",
     "email": "aagoodboyaa@gmail.com",
     "status": "active",
     "role": [
       "admin"
     ]
   }
+  
+  # I still can't pass two objects a the same time! Syntax error?
+  # , 
+  # {
+  #   "first_name": "Divita",
+  #   "last_name": "Day",
+  #   "middle_name": "Smooothey",
+  #   "email": "aaagoodboyaa@gmail.com",
+  #   "status": "active",
+  #   "role": [
+  #     "admin"
+  #   ]
+  # }
