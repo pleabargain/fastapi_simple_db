@@ -2,8 +2,14 @@
 
 # inspired by
 https://www.youtube.com/watch?v=GN6ICac3OXY
-
-## REST client learning curve
+Though he deleted the URL for this repo on his chat. 
 
 ## lots of problems with uuid!
 Need to learn more about it.
+
+ # test the app by running in the terminal
+ ```uvicorn main:app --reload```   
+
+# TODO  
+* currently post requests are not being saved
+* figure out how to document the various API commands! Ack! 
