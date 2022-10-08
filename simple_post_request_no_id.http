@@ -1,0 +1,29 @@
+### currently this is not being saved to the database, but it is being saved to the session
+### worse I'm only getting 'id' back when I run it
+# {
+#   "id": {}
+# }
+# is this becuase of the model? I updated the models.py to include optional ID and now I have a null in the respose.
+# {
+#   "id": null
+# }
+# I updated the models.py to include
+    # id: Optional[uuid.UUID] = uuid.uuid4()
+# and now I have some progress but still not quite there no first_name no last_name! :(
+# {
+#   "id": "30b24169-cf4c-4c8c-820d-d858b8ca5dc0"
+# }
+
+POST http://127.0.0.1:8000/api/v1/users HTTP/1.1 
+content-type: application/json
+
+ {
+    "first_name": "Rita",
+    "last_name": "Day",
+    "middle_name": "Smoothey",
+    "email": "aagoodboyaa@gmail.com",
+    "status": "active",
+    "role": [
+      "admin"
+    ]
+  }

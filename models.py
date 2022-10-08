@@ -22,8 +22,9 @@ class Role(str, Enum):
 # create a class for the user
 class User(BaseModel):
 
-    # create optional   class variable for the id
-    id = uuid.uuid4
+    # create id with optional  UUID
+
+    id: Optional[uuid.UUID] = uuid.uuid4()
     
     # create a class variable for the first_name
     first_name: str

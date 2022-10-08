@@ -1,4 +1,6 @@
 # fastapi_simple_db
+URL : https://github.com/pleabargain/fastapi_simple_db
+
 
 # inspired by
 https://www.youtube.com/watch?v=GN6ICac3OXY
@@ -12,6 +14,7 @@ Need to learn more about it.
 
 # TODO  
 * currently post requests are not being saved
+* use more dummy data from sites like mockaroo
 * figure out how to document the various API commands! Ack! 
 
 # why http?
