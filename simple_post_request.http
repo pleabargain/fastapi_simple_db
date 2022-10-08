@@ -1,3 +1,4 @@
+### currently this is not being saved to the database, but it is being saved to the session
 POST http://127.0.0.1:8000/api/v1/users HTTP/1.1 
 content-type: application/json
 

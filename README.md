@@ -13,3 +13,6 @@ Need to learn more about it.
 # TODO  
 * currently post requests are not being saved
 * figure out how to document the various API commands! Ack! 
+
+# why http?
+I thought it important to be able to see the full structure of the request. However, on POST requests I'm only getting 'id' in the response! :(
