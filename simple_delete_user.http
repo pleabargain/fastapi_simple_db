@@ -1,0 +1,4 @@
+
+### supply your own UUID of course!
+DELETE  http://127.0.0.1:8000/api/v1/users/71609a6f-0e15-4387-9999-408906b2b46b 
+content-type: application/json

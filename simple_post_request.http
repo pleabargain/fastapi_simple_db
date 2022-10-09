@@ -1,15 +1,12 @@
 ### currently this is not being saved to the database, but it is being saved to the session
-### worse I'm only getting 'id' back when I run it
-# {
-#   "id": {}
-# }
+# it's not a valid uuid
 
 
 POST http://127.0.0.1:8000/api/v1/users HTTP/1.1 
 content-type: application/json
 
  {
-    "id": "343434",
+    "id": "ec48b86f-5eff-4d65-86cc-90b3000e6c12",
     "first_name": "Johnny",
     "last_name": "Doey",
     "middle_name": "Smithey",

@@ -1,0 +1,22 @@
+### currently this is not being saved to the database, but it is being saved to the session
+# error Header name must be a valid HTTP token ["{"]
+# not sure why! :(
+PUT http://127.0.0.1:8000/api/v1/72768213-6000-40ea-8c66-71c5706181e1
+content-type: application/json
+{
+  "first_name": "Jacky",
+  
+}
+
+# orig
+# {
+#   "id": "ec48b86f-5eff-4d65-86cc-90b3000e6c12",
+#   "first_name": "Jacky",
+#   "last_name": "Doey",
+#   "middle_name": "Smithey",
+#   "email": "aagoodboy@gmail.com",
+#   "status": "active",
+#   "role": [
+#     "admin"
+#   ]
+# }

@@ -36,3 +36,16 @@ class User(BaseModel):
     email: str
     status: Status
     role: list[Role]
+
+# create a class for the user Update
+class UserUpdate(BaseModel):
+    # create a class variable for the first_name
+    first_name: Optional[str] = None
+    # create a class variable for the last_name
+    last_name: Optional[str] = None
+    # create a class variable for the middle_name
+    middle_name: Optional[str] = None
+    # create a class variable for the email
+    email: Optional[str] = None
+    status: Optional[Status] = None
+    role: Optional[list[Role]] = None
